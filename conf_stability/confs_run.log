@@ -1,0 +1,14 @@
+bash: /home/k9/miniconda3/envs/covalent5/lib/libtinfo.so.6: no version information available (required by bash)
+DONE VX_00_P3S/conf0
+DONE VX_00_P3S/conf1
+DONE VX_00_P3S/conf2
+DONE VR_00_P8S/conf0
+DONE VR_00_P8S/conf1
+DONE VR_00_P8S/conf2
+DONE DETAB_00_P3R/conf0
+DONE DETAB_00_P3R/conf1
+DONE DETAB_00_P3R/conf2
+DONE FEN_00_P3R/conf0
+DONE FEN_00_P3R/conf1
+DONE FEN_00_P3R/conf2
+=== 전체 완료. python parse_conf_stability.py ===
