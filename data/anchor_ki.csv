@@ -1,0 +1,15 @@
+stereo_id,agent,config,ki,pKi,confidence,source
+VX_00_P3S,VX,Sp(toxic),1.4e8,8.146,confirmed_enantiomer,CRT2018
+VX_01_P3R,VX,Rp,1.2e6,6.079,confirmed_enantiomer,CRT2018
+GB_00_P4S,sarin,racemic-rep,2.7e7,7.431,racemic_Worek,Worek2004
+GD_00_C1S_P3S,soman,racemic-rep,9.2e7,7.964,racemic_Worek,Worek2004
+GA_00_P3R,tabun,racemic-rep,7.4e6,6.869,racemic_Worek,Worek2004
+PXNE_00_achiral,paraoxon-ethyl,achiral,2.2e6,6.342,Worek,Worek2004
+BSAR_00_P5S,butylsarin,racemic-rep,6.1e8,8.785,racemic_Worek,Worek2004
+GF_00_P1S,cyclosarin,racemic-rep,4.9e8,8.690,racemic_Worek,Worek2004
+VR_00_P8S,VR,racemic-rep,4.4e8,8.643,racemic_Worek,Worek2004
+MPXN_00_achiral,paraoxon-methyl,achiral,1.2e6,6.079,Worek,Worek2004
+DETAB_00_P3R,diethyltabun,racemic-rep,8.8e5,5.944,racemic_Worek,Worek2004
+DFP_00_achiral,DFP,achiral,1.3e5,5.114,Worek,Worek2004
+METH_00_P2R,methamidophos,rep,1.9e3,3.279,Worek,Worek2004
+FEN_00_P3R,fenamiphos,rep,2.0e1,1.301,Worek,Worek2004

@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina -r receptor_wet.pdbqt -l ligands/noncovalent/FEN_00_P3R.sdf --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 22.5 --size_y 22.5 --size_z 22.5 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore --seed 42 -o out_waters/FEN_00_P3R_wet.sdf.gz --log out_waters/FEN_00_P3R_wet.log
+Using random seed: 42
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -6.64        1.09       0.8397      6.071
+    2       -6.59        2.25       0.7558      6.127
+    3       -6.10       -0.44       0.6612      5.768
+    4       -6.55        1.23       0.4251      5.702
+    5       -6.45        1.45       0.3872      5.860
+    6       -5.89        3.11       0.3800      5.558
+    7       -6.60        0.93       0.3734      5.606
+    8       -7.01        2.32       0.3226      5.792
+    9       -7.51        1.41       0.2923      5.349

@@ -1,0 +1,702 @@
+bash: /home/k9/miniconda3/envs/covalent5/lib/libtinfo.so.6: no version information available (required by bash)
+>>> GB_00_P4S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GB_00_P4S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GB_00_P4S_cov.sdf.gz --log out_covalent/GB_00_P4S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GB_00_P4S (1)
+>>> GB_01_P4R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GB_01_P4R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GB_01_P4R_cov.sdf.gz --log out_covalent/GB_01_P4R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GB_01_P4R (1)
+>>> GD_00_C1S_P3S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GD_00_C1S_P3S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GD_00_C1S_P3S_cov.sdf.gz --log out_covalent/GD_00_C1S_P3S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GD_00_C1S_P3S (1)
+>>> GD_01_C1R_P3S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GD_01_C1R_P3S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GD_01_C1R_P3S_cov.sdf.gz --log out_covalent/GD_01_C1R_P3S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GD_01_C1R_P3S (1)
+>>> GD_02_C1S_P3R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GD_02_C1S_P3R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GD_02_C1S_P3R_cov.sdf.gz --log out_covalent/GD_02_C1S_P3R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GD_02_C1S_P3R (1)
+>>> GD_03_C1R_P3R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GD_03_C1R_P3R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GD_03_C1R_P3R_cov.sdf.gz --log out_covalent/GD_03_C1R_P3R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GD_03_C1R_P3R (1)
+>>> GA_00_P3R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GA_00_P3R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GA_00_P3R_cov.sdf.gz --log out_covalent/GA_00_P3R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GA_00_P3R (1)
+>>> GA_01_P3S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GA_01_P3S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GA_01_P3S_cov.sdf.gz --log out_covalent/GA_01_P3S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GA_01_P3S (1)
+>>> VX_00_P3S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/VX_00_P3S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/VX_00_P3S_cov.sdf.gz --log out_covalent/VX_00_P3S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL VX_00_P3S (1)
+>>> VX_01_P3R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/VX_01_P3R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/VX_01_P3R_cov.sdf.gz --log out_covalent/VX_01_P3R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL VX_01_P3R (1)
+>>> PXNE_00_achiral
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/PXNE_00_achiral.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/PXNE_00_achiral_cov.sdf.gz --log out_covalent/PXNE_00_achiral_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL PXNE_00_achiral (1)
+>>> DDVP_00_achiral
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/DDVP_00_achiral.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/DDVP_00_achiral_cov.sdf.gz --log out_covalent/DDVP_00_achiral_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL DDVP_00_achiral (1)
+>>> A230_00_P8R_C5N7E
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A230_00_P8R_C5N7E.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A230_00_P8R_C5N7E_cov.sdf.gz --log out_covalent/A230_00_P8R_C5N7E_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A230_00_P8R_C5N7E (1)
+>>> A230_01_P8S_C5N7E
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A230_01_P8S_C5N7E.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A230_01_P8S_C5N7E_cov.sdf.gz --log out_covalent/A230_01_P8S_C5N7E_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A230_01_P8S_C5N7E (1)
+>>> A230_02_P8R_C5N7Z
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A230_02_P8R_C5N7Z.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A230_02_P8R_C5N7Z_cov.sdf.gz --log out_covalent/A230_02_P8R_C5N7Z_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A230_02_P8R_C5N7Z (1)
+>>> A230_03_P8S_C5N7Z
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A230_03_P8S_C5N7Z.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A230_03_P8S_C5N7Z_cov.sdf.gz --log out_covalent/A230_03_P8S_C5N7Z_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A230_03_P8S_C5N7Z (1)
+>>> A232_00_P8R_C5N7E
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A232_00_P8R_C5N7E.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A232_00_P8R_C5N7E_cov.sdf.gz --log out_covalent/A232_00_P8R_C5N7E_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A232_00_P8R_C5N7E (1)
+>>> A232_01_P8S_C5N7E
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A232_01_P8S_C5N7E.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A232_01_P8S_C5N7E_cov.sdf.gz --log out_covalent/A232_01_P8S_C5N7E_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A232_01_P8S_C5N7E (1)
+>>> A232_02_P8R_C5N7Z
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A232_02_P8R_C5N7Z.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A232_02_P8R_C5N7Z_cov.sdf.gz --log out_covalent/A232_02_P8R_C5N7Z_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A232_02_P8R_C5N7Z (1)
+>>> A232_03_P8S_C5N7Z
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A232_03_P8S_C5N7Z.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A232_03_P8S_C5N7Z_cov.sdf.gz --log out_covalent/A232_03_P8S_C5N7Z_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A232_03_P8S_C5N7Z (1)
+>>> A234_00_P3S_N6C7E
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A234_00_P3S_N6C7E.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A234_00_P3S_N6C7E_cov.sdf.gz --log out_covalent/A234_00_P3S_N6C7E_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A234_00_P3S_N6C7E (1)
+>>> A234_01_P3R_N6C7E
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A234_01_P3R_N6C7E.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A234_01_P3R_N6C7E_cov.sdf.gz --log out_covalent/A234_01_P3R_N6C7E_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A234_01_P3R_N6C7E (1)
+>>> A234_02_P3S_N6C7Z
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A234_02_P3S_N6C7Z.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A234_02_P3S_N6C7Z_cov.sdf.gz --log out_covalent/A234_02_P3S_N6C7Z_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A234_02_P3S_N6C7Z (1)
+>>> A234_03_P3R_N6C7Z
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A234_03_P3R_N6C7Z.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A234_03_P3R_N6C7Z_cov.sdf.gz --log out_covalent/A234_03_P3R_N6C7Z_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A234_03_P3R_N6C7Z (1)
+>>> A242_00_P7R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A242_00_P7R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A242_00_P7R_cov.sdf.gz --log out_covalent/A242_00_P7R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A242_00_P7R (1)
+>>> A242_01_P7S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/A242_01_P7S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/A242_01_P7S_cov.sdf.gz --log out_covalent/A242_01_P7S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL A242_01_P7S (1)
+>>> BSAR_00_P5S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/BSAR_00_P5S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/BSAR_00_P5S_cov.sdf.gz --log out_covalent/BSAR_00_P5S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL BSAR_00_P5S (1)
+>>> BSAR_01_P5R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/BSAR_01_P5R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/BSAR_01_P5R_cov.sdf.gz --log out_covalent/BSAR_01_P5R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL BSAR_01_P5R (1)
+>>> GF_00_P1S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GF_00_P1S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GF_00_P1S_cov.sdf.gz --log out_covalent/GF_00_P1S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GF_00_P1S (1)
+>>> GF_01_P1R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/GF_01_P1R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/GF_01_P1R_cov.sdf.gz --log out_covalent/GF_01_P1R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL GF_01_P1R (1)
+>>> VR_00_P8S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/VR_00_P8S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/VR_00_P8S_cov.sdf.gz --log out_covalent/VR_00_P8S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL VR_00_P8S (1)
+>>> VR_01_P8R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/VR_01_P8R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/VR_01_P8R_cov.sdf.gz --log out_covalent/VR_01_P8R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL VR_01_P8R (1)
+>>> MPXN_00_achiral
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/MPXN_00_achiral.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/MPXN_00_achiral_cov.sdf.gz --log out_covalent/MPXN_00_achiral_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL MPXN_00_achiral (1)
+>>> DETAB_00_P3R
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/DETAB_00_P3R.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/DETAB_00_P3R_cov.sdf.gz --log out_covalent/DETAB_00_P3R_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL DETAB_00_P3R (1)
+>>> DETAB_01_P3S
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+WARNING: CNN scoring not yet calibrated for covalent docking.  Recommend running with --cnn_scoring none
+Commandline: gnina -r receptor_H.pdb -l ligands/covalent/DETAB_01_P3S.sdf --covalent_rec_atom A:203:OG --covalent_lig_atom_pattern [#15] --covalent_optimize_lig --covalent_bond_order 1 --center_x -5.337 --center_y -41.735 --center_z 29.543 --size_x 18.0 --size_y 18.0 --size_z 18.0 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore -o out_covalent/DETAB_01_P3S_cov.sdf.gz --log out_covalent/DETAB_01_P3S_cov.log
+
+
+Usage error: Could not find receptor atom A:203:OG
+    FAIL DETAB_01_P3S (1)
+=== done. logs: 35 ===

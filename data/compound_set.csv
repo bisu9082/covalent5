@@ -1,0 +1,23 @@
+name,code,class,role,smiles,source,verify_flag,notes
+Sarin,GB,G,anchor,CC(C)OP(C)(=O)F,public,0,P-stereocenter; classic G-agent anchor
+Soman,GD,G,anchor,CC(C)(C)C(C)OP(C)(=O)F,public,0,P+C stereocenters -> 4 stereoisomers; aging archetype
+Tabun,GA,G,anchor,CCOP(=O)(C#N)N(C)C,public,0,P-stereocenter; CN leaving group
+VX,VX,V,anchor,CCOP(C)(=O)SCCN(C(C)C)C(C)C,public,0,P-stereocenter; RP/SP validation vs PDB 6CQT/6CQX
+VR,VR,V,anchor,CC(C)COP(C)(=O)SCCN(CC)CC,public-verify,1,Russian VX; verify substituents
+Parathion,PARA,OP-thion,experiment,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],in-house stock,0,P=S thion; weak direct AChE (bioactivation->paraoxon); NOT P-chiral
+Paraoxon-ethyl,PXNE,OP-oxon,experiment,CCOP(=O)(OCC)Oc1ccc(cc1)[N+](=O)[O-],in-house stock,0,P=O ACTIVE direct inhibitor; NOT P-chiral
+Chlorpyrifos,CPF,OP-thion,experiment,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl,in-house stock,0,P=S thion; bioactivation->chlorpyrifos-oxon; NOT P-chiral
+Malathion,MLT,OP-thion,experiment,CCOC(=O)CC(SP(=S)(OC)OC)C(=O)OCC,in-house stock,0,P=S thion; C-chiral (2 iso); bioactivation->malaoxon
+Dichlorvos,DDVP,OP-oxon,experiment,COP(=O)(OC)OC=C(Cl)Cl,in-house stock,0,P=O ACTIVE direct inhibitor; NOT P-chiral
+A-230,A230,Novichok,target,CCN(CC)C(C)=NP(C)(=O)F,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,amidine; P-methyl; C7H16FN2OP; P-R/S x C=N E/Z
+A-232,A232,Novichok,target,CCN(CC)C(C)=NP(=O)(F)OC,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,amidine; P-methoxy; C7H16FN2O2P
+A-234,A234,Novichok,target,CCOP(=O)(F)N=C(C)N(CC)CC,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,amidine; P-ethoxy; C8H18FN2O2P; Skripal agent
+A-242,A242,Novichok,target,CCN(CC)C(=NP(C)(=O)F)N(CC)CC,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,guanidine; P-methyl; C10H23FN3OP
+Butylsarin,BSAR,G,anchor,CCCCOP(C)(=O)F,Worek2004,0,ki6.1e8; butyl methylphosphonofluoridate
+Cyclosarin,GF,G,anchor,O=P(C)(F)OC1CCCCC1,Worek2004,0,ki4.9e8; cyclohexyl methylphosphonofluoridate
+VR,VR,V,anchor,CC(C)COP(C)(=O)SCCN(CC)CC,Worek2004,0,ki4.4e8; Russian VX
+Paraoxon-methyl,MPXN,OP-oxon,experiment,COP(=O)(OC)Oc1ccc(cc1)[N+](=O)[O-],Worek2004,0,ki1.2e6; achiral-P
+Diethyltabun,DETAB,G,anchor,CCOP(=O)(C#N)N(CC)CC,Worek2004,0,ki8.8e5; diethyl tabun analog
+DFP,DFP,OP-oxon,anchor,CC(C)OP(=O)(OC(C)C)F,Worek2004,0,ki1.3e5; diisopropyl fluorophosphate; achiral-P
+Methamidophos,METH,OP-thion,experiment,COP(=O)(N)SC,Worek2004,0,ki1.9e3; O-S-dimethyl phosphoramidothioate
+Fenamiphos,FEN,OP-thion,experiment,CCOP(=O)(NC(C)C)Oc1ccc(SC)c(C)c1,Worek2004,0,ki2.0e1

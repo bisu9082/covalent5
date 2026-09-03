@@ -1,0 +1,24 @@
+bash: /home/k9/miniconda3/envs/covalent5/lib/libtinfo.so.6: no version information available (required by bash)
+4EY7.pdb HOH: 555
+보존한 활성부위 물: 4개 -> receptor_wet_raw.pdb
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is receptor_wet_raw.pdb)
+
+1 molecule converted
+1 molecule converted
+  ok VX_00_P3S
+  ok VX_01_P3R
+  ok GB_00_P4S
+  ok GD_00_C1S_P3S
+  ok GA_00_P3R
+  ok PXNE_00_achiral
+  ok BSAR_00_P5S
+  ok GF_00_P1S
+  ok VR_00_P8S
+  ok MPXN_00_achiral
+  ok DETAB_00_P3R
+  ok DFP_00_achiral
+  ok METH_00_P2R
+  ok FEN_00_P3R
+=== 완료. python parse_waters.py 로 ρ 비교 ===

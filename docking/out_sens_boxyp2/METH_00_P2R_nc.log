@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina -r receptor.pdbqt -l ligands/noncovalent/METH_00_P2R.sdf --center_x -5.337 --center_y -39.735 --center_z 29.543 --size_x 22.5 --size_y 22.5 --size_z 22.5 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore --seed 42 -o out_sens_boxyp2/METH_00_P2R_nc.sdf.gz --log out_sens_boxyp2/METH_00_P2R_nc.log
+Using random seed: 42
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -4.15       -0.00       0.7822      3.923
+    2       -4.02       -0.03       0.7610      3.793
+    3       -3.60       -0.00       0.7367      3.897
+    4       -3.68       -0.00       0.6933      3.412
+    5       -4.19       -0.04       0.5574      3.761
+    6       -3.43       -0.01       0.5572      3.718
+    7       -3.94       -0.02       0.5250      3.717
+    8       -3.80       -0.01       0.4152      3.661
+    9       -4.09       -0.04       0.3978      3.628

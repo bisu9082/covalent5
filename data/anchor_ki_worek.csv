@@ -1,0 +1,14 @@
+agent,ki_M-1min-1,logki,source,note
+Butylsarin,6.1e8,8.785,Worek2004_BiochemPharmacol68_2237,racemic human eryth AChE
+Cyclosarin,4.9e8,8.690,Worek2004,racemic
+VR,4.4e8,8.643,Worek2004,racemic
+VX,1.2e8,8.079,Worek2004,racemic; enantiomer PS1.4e8/PR1.2e6 CRT2018
+Soman,9.2e7,7.964,Worek2004,racemic; P(-)/P(+)>40000
+Sarin,2.7e7,7.431,Worek2004,racemic; P(-)/P(+)=4200
+Tabun,7.4e6,6.869,Worek2004,racemic
+Paraoxon-ethyl,2.2e6,6.342,Worek2004,achiral-P
+Paraoxon-methyl,1.2e6,6.079,Worek2004,achiral-P
+Diethyltabun,8.8e5,5.944,Worek2004,racemic
+DFP,1.3e5,5.114,Worek2004,achiral-P
+Methamidophos,1.9e3,3.279,Worek2004,
+Fenamiphos,2.0e1,1.301,Worek2004,

@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina -r receptor.pdbqt -l ligands/noncovalent/A234_03_P3R_N6C7Z.sdf --center_x -5.337 --center_y -43.735 --center_z 29.543 --size_x 22.5 --size_y 22.5 --size_z 22.5 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore --seed 42 -o out_sens_boxym2/A234_03_P3R_N6C7Z_nc.sdf.gz --log out_sens_boxym2/A234_03_P3R_N6C7Z_nc.log
+Using random seed: 42
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -6.51       -0.00       0.9643      4.708
+    2       -6.74       -0.38       0.9430      4.912
+    3       -6.42        0.05       0.9361      4.530
+    4       -6.13        0.06       0.9340      4.411
+    5       -6.64       -0.10       0.9327      4.817
+    6       -6.68       -0.01       0.9145      4.715
+    7       -6.21       -0.20       0.9046      4.143
+    8       -6.63        0.03       0.8927      4.622
+    9       -5.95        0.38       0.8593      5.092

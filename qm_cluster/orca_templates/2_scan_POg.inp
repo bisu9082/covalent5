@@ -1,0 +1,9 @@
+# P···Oγ relaxed scan (3.0→1.6 Å, 15점) — TS 가이드. {PIDX}/{OGIDX} 설정 필수
+! wB97X-D3 def2-SVP def2/J RIJCOSX OPT CPCM(water) TightSCF defgrid2
+%pal nprocs 8 end
+%maxcore 3500
+%geom
+  Scan B {PIDX} {OGIDX} = 3.0, 1.6, 15 end end
+  Constraints {C {FROZEN} C} end
+ end
+* xyzfile 0 1 cluster_reactant.xyz

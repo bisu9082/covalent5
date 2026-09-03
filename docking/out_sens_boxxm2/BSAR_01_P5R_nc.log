@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina -r receptor.pdbqt -l ligands/noncovalent/BSAR_01_P5R.sdf --center_x -7.337 --center_y -41.735 --center_z 29.543 --size_x 22.5 --size_y 22.5 --size_z 22.5 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore --seed 42 -o out_sens_boxxm2/BSAR_01_P5R_nc.sdf.gz --log out_sens_boxxm2/BSAR_01_P5R_nc.log
+Using random seed: 42
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -4.95       -0.08       0.8803      3.397
+    2       -5.01       -0.08       0.8761      3.963
+    3       -5.27       -0.10       0.8164      3.878
+    4       -4.40       -0.17       0.7780      3.343
+    5       -4.65       -0.09       0.7732      3.269
+    6       -4.98       -0.07       0.7483      3.545
+    7       -4.64       -0.14       0.7403      3.661
+    8       -4.85       -0.12       0.7225      3.305
+    9       -4.45       -0.29       0.6431      3.509

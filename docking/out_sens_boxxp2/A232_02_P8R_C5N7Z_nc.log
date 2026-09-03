@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina -r receptor.pdbqt -l ligands/noncovalent/A232_02_P8R_C5N7Z.sdf --center_x -3.3369999999999997 --center_y -41.735 --center_z 29.543 --size_x 22.5 --size_y 22.5 --size_z 22.5 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore --seed 42 -o out_sens_boxxp2/A232_02_P8R_C5N7Z_nc.sdf.gz --log out_sens_boxxp2/A232_02_P8R_C5N7Z_nc.log
+Using random seed: 42
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -5.85       -0.09       0.9661      4.734
+    2       -6.11        0.03       0.9565      4.395
+    3       -6.21       -0.37       0.9350      4.789
+    4       -5.82        0.38       0.9290      4.265
+    5       -5.93       -0.17       0.9206      4.676
+    6       -6.11       -0.06       0.9206      4.636
+    7       -5.85        0.30       0.9167      5.039
+    8       -6.13        0.15       0.8807      4.655
+    9       -5.94       -0.25       0.8574      4.322

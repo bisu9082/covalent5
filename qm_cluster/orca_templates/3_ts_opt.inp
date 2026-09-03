@@ -1,0 +1,10 @@
+# TS 최적화 — 스캔 최고점을 guess(.xyz)로. 완료 후 freq로 허수진동 1개 확인
+! wB97X-D3 def2-SVP def2/J RIJCOSX OptTS NumFreq CPCM(water) TightSCF defgrid2
+%pal nprocs 8 end
+%maxcore 3500
+%geom
+  Calc_Hess true
+  TS_Mode {B {PIDX} {OGIDX}} end
+  Constraints {C {FROZEN} C} end
+ end
+* xyzfile 0 1 scan_highpoint.xyz

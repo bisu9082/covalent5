@@ -1,0 +1,34 @@
+# ── 공개 금지: 투고·심사 관련 (ACS 심사 기밀) ────────────────
+jcim/
+omega/
+latex/
+upload/
+md/
+*.docx
+Review*.pdf
+*decision*
+*Response_to_Reviewers*
+
+# ── 대용량 ORCA 중간파일 (재현에 불필요) ─────────────────────
+*.gbw
+*.densities
+*.densitiesinfo
+*.tmp
+qm_cluster/**/*_trj.xyz
+*.bibtex
+__pycache__/
+
+# 내부 전략 문서 (공개 금지)
+JHM_framing_strategy.md
+data/journal_strategy_step2.md
+data/research_profile_step1.md
+data/methodology_design_step3.md
+data/handoff_step1.json
+data/ml_robustness.md
+data/rq1_covalent_stats.md
+data/lit_anchor_kinetics.md
+
+# 전달용 중복 압축본
+*.zip
+*.tgz
+qm_cluster/README_his447_fullqm.md

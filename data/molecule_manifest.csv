@@ -1,0 +1,45 @@
+name,code,class,role,stereo_id,cip_label,canonical_smiles,n_atoms,formal_charge,ff_engine,source,provisional,xyz
+Sarin,GB,G,anchor,GB_00_P4S,P4S,CC(C)O[P@](C)(=O)F,18,0,MMFF94,public,0,data/structures/GB/GB_00_P4S.xyz
+Sarin,GB,G,anchor,GB_01_P4R,P4R,CC(C)O[P@@](C)(=O)F,18,0,MMFF94,public,0,data/structures/GB/GB_01_P4R.xyz
+Soman,GD,G,anchor,GD_00_C1S_P3S,C1S_P3S,C[C@H](O[P@](C)(=O)F)C(C)(C)C,27,0,MMFF94,public,0,data/structures/GD/GD_00_C1S_P3S.xyz
+Soman,GD,G,anchor,GD_01_C1R_P3S,C1R_P3S,C[C@@H](O[P@](C)(=O)F)C(C)(C)C,27,0,MMFF94,public,0,data/structures/GD/GD_01_C1R_P3S.xyz
+Soman,GD,G,anchor,GD_02_C1S_P3R,C1S_P3R,C[C@H](O[P@@](C)(=O)F)C(C)(C)C,27,0,MMFF94,public,0,data/structures/GD/GD_02_C1S_P3R.xyz
+Soman,GD,G,anchor,GD_03_C1R_P3R,C1R_P3R,C[C@@H](O[P@@](C)(=O)F)C(C)(C)C,27,0,MMFF94,public,0,data/structures/GD/GD_03_C1R_P3R.xyz
+Tabun,GA,G,anchor,GA_00_P3R,P3R,CCO[P@](=O)(C#N)N(C)C,21,0,MMFF94,public,0,data/structures/GA/GA_00_P3R.xyz
+Tabun,GA,G,anchor,GA_01_P3S,P3S,CCO[P@@](=O)(C#N)N(C)C,21,0,MMFF94,public,0,data/structures/GA/GA_01_P3S.xyz
+VX,VX,V,anchor,VX_00_P3S,P3S,CCO[P@](C)(=O)SCCN(C(C)C)C(C)C,42,0,MMFF94,public,0,data/structures/VX/VX_00_P3S.xyz
+VX,VX,V,anchor,VX_01_P3R,P3R,CCO[P@@](C)(=O)SCCN(C(C)C)C(C)C,42,0,MMFF94,public,0,data/structures/VX/VX_01_P3R.xyz
+Parathion,PARA,OP-thion,experiment,PARA_00_achiral,achiral,CCOP(=S)(OCC)Oc1ccc([N+](=O)[O-])cc1,32,0,MMFF94,in-house stock,0,data/structures/PARA/PARA_00_achiral.xyz
+Paraoxon-ethyl,PXNE,OP-oxon,experiment,PXNE_00_achiral,achiral,CCOP(=O)(OCC)Oc1ccc([N+](=O)[O-])cc1,32,0,MMFF94,in-house stock,0,data/structures/PXNE/PXNE_00_achiral.xyz
+Chlorpyrifos,CPF,OP-thion,experiment,CPF_00_achiral,achiral,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl,29,0,MMFF94,in-house stock,0,data/structures/CPF/CPF_00_achiral.xyz
+Malathion,MLT,OP-thion,experiment,MLT_00_C6S,C6S,CCOC(=O)C[C@H](SP(=S)(OC)OC)C(=O)OCC,38,0,MMFF94,in-house stock,0,data/structures/MLT/MLT_00_C6S.xyz
+Malathion,MLT,OP-thion,experiment,MLT_01_C6R,C6R,CCOC(=O)C[C@@H](SP(=S)(OC)OC)C(=O)OCC,38,0,MMFF94,in-house stock,0,data/structures/MLT/MLT_01_C6R.xyz
+Dichlorvos,DDVP,OP-oxon,experiment,DDVP_00_achiral,achiral,COP(=O)(OC)OC=C(Cl)Cl,18,0,MMFF94,in-house stock,0,data/structures/DDVP/DDVP_00_achiral.xyz
+A-230,A230,Novichok,target,A230_00_P8R_C5N7E,P8R_C5N7E,CCN(CC)/C(C)=N/[P@](C)(=O)F,28,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A230/A230_00_P8R_C5N7E.xyz
+A-230,A230,Novichok,target,A230_01_P8S_C5N7E,P8S_C5N7E,CCN(CC)/C(C)=N/[P@@](C)(=O)F,28,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A230/A230_01_P8S_C5N7E.xyz
+A-230,A230,Novichok,target,A230_02_P8R_C5N7Z,P8R_C5N7Z,CCN(CC)/C(C)=N\[P@](C)(=O)F,28,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A230/A230_02_P8R_C5N7Z.xyz
+A-230,A230,Novichok,target,A230_03_P8S_C5N7Z,P8S_C5N7Z,CCN(CC)/C(C)=N\[P@@](C)(=O)F,28,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A230/A230_03_P8S_C5N7Z.xyz
+A-232,A232,Novichok,target,A232_00_P8R_C5N7E,P8R_C5N7E,CCN(CC)/C(C)=N/[P@](=O)(F)OC,29,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A232/A232_00_P8R_C5N7E.xyz
+A-232,A232,Novichok,target,A232_01_P8S_C5N7E,P8S_C5N7E,CCN(CC)/C(C)=N/[P@@](=O)(F)OC,29,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A232/A232_01_P8S_C5N7E.xyz
+A-232,A232,Novichok,target,A232_02_P8R_C5N7Z,P8R_C5N7Z,CCN(CC)/C(C)=N\[P@](=O)(F)OC,29,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A232/A232_02_P8R_C5N7Z.xyz
+A-232,A232,Novichok,target,A232_03_P8S_C5N7Z,P8S_C5N7Z,CCN(CC)/C(C)=N\[P@@](=O)(F)OC,29,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A232/A232_03_P8S_C5N7Z.xyz
+A-234,A234,Novichok,target,A234_00_P3S_N6C7E,P3S_N6C7E,CCO[P@](=O)(F)/N=C(\C)N(CC)CC,32,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A234/A234_00_P3S_N6C7E.xyz
+A-234,A234,Novichok,target,A234_01_P3R_N6C7E,P3R_N6C7E,CCO[P@@](=O)(F)/N=C(\C)N(CC)CC,32,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A234/A234_01_P3R_N6C7E.xyz
+A-234,A234,Novichok,target,A234_02_P3S_N6C7Z,P3S_N6C7Z,CCO[P@](=O)(F)/N=C(/C)N(CC)CC,32,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A234/A234_02_P3S_N6C7Z.xyz
+A-234,A234,Novichok,target,A234_03_P3R_N6C7Z,P3R_N6C7Z,CCO[P@@](=O)(F)/N=C(/C)N(CC)CC,32,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A234/A234_03_P3R_N6C7Z.xyz
+A-242,A242,Novichok,target,A242_00_P7R,P7R,CCN(CC)C(=N[P@](C)(=O)F)N(CC)CC,39,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A242/A242_00_P7R.xyz
+A-242,A242,Novichok,target,A242_01_P7S,P7S,CCN(CC)C(=N[P@@](C)(=O)F)N(CC)CC,39,0,MMFF94,Ku-provided fig (Sens.Actuators B 437) RDKit-verified,0,data/structures/A242/A242_01_P7S.xyz
+Butylsarin,BSAR,G,anchor,BSAR_00_P5S,P5S,CCCCO[P@](C)(=O)F,21,0,MMFF94,Worek2004,0,data/structures/BSAR/BSAR_00_P5S.xyz
+Butylsarin,BSAR,G,anchor,BSAR_01_P5R,P5R,CCCCO[P@@](C)(=O)F,21,0,MMFF94,Worek2004,0,data/structures/BSAR/BSAR_01_P5R.xyz
+Cyclosarin,GF,G,anchor,GF_00_P1S,P1S,C[P@@](=O)(F)OC1CCCCC1,25,0,MMFF94,Worek2004,0,data/structures/GF/GF_00_P1S.xyz
+Cyclosarin,GF,G,anchor,GF_01_P1R,P1R,C[P@](=O)(F)OC1CCCCC1,25,0,MMFF94,Worek2004,0,data/structures/GF/GF_01_P1R.xyz
+VR,VR,V,anchor,VR_00_P8S,P8S,CCN(CC)CCS[P@@](C)(=O)OCC(C)C,42,0,MMFF94,Worek2004,0,data/structures/VR/VR_00_P8S.xyz
+VR,VR,V,anchor,VR_01_P8R,P8R,CCN(CC)CCS[P@](C)(=O)OCC(C)C,42,0,MMFF94,Worek2004,0,data/structures/VR/VR_01_P8R.xyz
+Paraoxon-methyl,MPXN,OP-oxon,experiment,MPXN_00_achiral,achiral,COP(=O)(OC)Oc1ccc([N+](=O)[O-])cc1,26,0,MMFF94,Worek2004,0,data/structures/MPXN/MPXN_00_achiral.xyz
+Diethyltabun,DETAB,G,anchor,DETAB_00_P3R,P3R,CCO[P@](=O)(C#N)N(CC)CC,27,0,MMFF94,Worek2004,0,data/structures/DETAB/DETAB_00_P3R.xyz
+Diethyltabun,DETAB,G,anchor,DETAB_01_P3S,P3S,CCO[P@@](=O)(C#N)N(CC)CC,27,0,MMFF94,Worek2004,0,data/structures/DETAB/DETAB_01_P3S.xyz
+DFP,DFP,OP-oxon,anchor,DFP_00_achiral,achiral,CC(C)OP(=O)(F)OC(C)C,25,0,MMFF94,Worek2004,0,data/structures/DFP/DFP_00_achiral.xyz
+Methamidophos,METH,OP-thion,experiment,METH_00_P2R,P2R,CO[P@@](N)(=O)SC,15,0,MMFF94,Worek2004,0,data/structures/METH/METH_00_P2R.xyz
+Methamidophos,METH,OP-thion,experiment,METH_01_P2S,P2S,CO[P@](N)(=O)SC,15,0,MMFF94,Worek2004,0,data/structures/METH/METH_01_P2S.xyz
+Fenamiphos,FEN,OP-thion,experiment,FEN_00_P3R,P3R,CCO[P@](=O)(NC(C)C)Oc1ccc(SC)c(C)c1,41,0,MMFF94,Worek2004,0,data/structures/FEN/FEN_00_P3R.xyz
+Fenamiphos,FEN,OP-thion,experiment,FEN_01_P3S,P3S,CCO[P@@](=O)(NC(C)C)Oc1ccc(SC)c(C)c1,41,0,MMFF94,Worek2004,0,data/structures/FEN/FEN_01_P3S.xyz

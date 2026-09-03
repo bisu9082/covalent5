@@ -1,0 +1,11 @@
+# covalent5 VX(P3S) 반응물 클러스터 최적화 (RC)
+# 캡 H 고정(0-based 5,16,26 = Ser/His/Glu Cbeta cap). 순전하 -1, 닫힌껍질.
+! wB97X-D3 def2-SVP def2/J RIJCOSX OPT CPCM(water) TightSCF defgrid2
+%pal nprocs 8 end
+%maxcore 3500
+%geom Constraints
+  {C 5 C}
+  {C 16 C}
+  {C 26 C}
+ end end
+* xyzfile -1 1 cluster_reactant.xyz

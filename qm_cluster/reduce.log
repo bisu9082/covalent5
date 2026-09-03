@@ -1,0 +1,120 @@
+/bin/bash: /home/k9/miniconda3/envs/covalent5/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+Processing file: "../docking/receptor_4EY7_chainA.pdb"
+Building or keeping OH & SH Hydrogens.
+*WARNING*: Residues PRO 258  and ASN 265  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues PRO 258  and ASN 265  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ASP 494  and PRO 498  in chain  A appear unbonded 
+            and will be treated as a chain break
+*WARNING*: Residues ASP 494  and PRO 498  in chain  A appear unbonded 
+            and will be treated as a chain break
+VDW dot density = 16/A^2
+Probe radius = 0.25A
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Rotating NH3 Hydrogens.
+Not processing Met methyls.
+ Singles(size 77): A  11 THR OG1 : A  23 LYS NZ  : A  24 THR OG1 : A  30 SER OG  
+  : A  53 LYS NZ  : A  57 SER OG  : A  63 THR OG1 : A  64 THR OG1 : A  67 SER OG  
+  : A  70 TYR OH  : A  72 TYR OH  : A  75 THR OG1 : A  77 TYR OH  : A  83 THR OG1 
+  : A  93 SER OG  : A  98 TYR OH  : A 103 THR OG1 : A 105 TYR OH  : A 109 THR OG1 
+  : A 110 SER OG  : A 112 THR OG1 : A 119 TYR OH  : A 124 TYR OH  : A 125 SER OG  
+  : A 128 SER OG  : A 129 SER OG  : A 133 TYR OH  : A 144 THR OG1 : A 148 SER OG  
+  : A 151 TYR OH  : A 164 SER OG  : A 195 THR OG1 : A 196 SER OG  : A 198 THR OG1 
+  : A 203 SER OG  : A 208 SER OG  : A 215 SER OG  : A 218 SER OG  : A 229 SER OG  
+  : A 238 THR OG1 : A 249 THR OG1 : A 267 THR OG1 : A 275 THR OG1 : A 293 SER OG  
+  : A 298 SER OG  : A 309 SER OG  : A 311 THR OG1 : A 332 LYS NZ  : A 336 SER OG  
+  : A 337 TYR OH  : A 341 TYR OH  : A 347 SER OG  : A 348 LYS NZ  : A 352 SER OG  
+  : A 355 SER OG  : A 371 SER OG  : A 382 TYR OH  : A 383 THR OG1 : A 399 SER OG  
+  : A 426 TYR OH  : A 428 TYR OH  : A 435 SER OG  : A 436 THR OG1 : A 438 SER OG  
+  : A 449 TYR OH  : A 462 SER OG  : A 465 TYR OH  : A 466 THR OG1 : A 470 LYS NZ  
+  : A 479 TYR OH  : A 486 THR OG1 : A 503 TYR OH  : A 504 THR OG1 : A 510 TYR OH  
+  : A 512 SER OG  : A 538 LYS NZ  : A 541 SER OG  
+ orientation 1: A  11 THR OG1 :   rot -170: bump=0.000, HB=0.000, total=1.125
+ orientation 2: A  23 LYS NZ  :NH3+   -155: bump=0.000, HB=0.000, total=0.245
+ orientation 3: A  24 THR OG1 :   rot  -47: bump=-0.117, HB=1.388, total=3.713
+ orientation 2: A  30 SER OG  :   rot   93: bump=-0.003, HB=0.000, total=1.589
+ orientation 2: A  53 LYS NZ  :NH3+   -155: bump=0.000, HB=0.000, total=0.221
+ orientation 2: A  57 SER OG  :   rot   10: bump=-0.240, HB=0.000, total=0.536
+ orientation 3: A  63 THR OG1 :   rot  -65: bump=0.000, HB=1.221, total=1.984
+ orientation 1: A  64 THR OG1 :   rot -174: bump=0.000, HB=0.000, total=0.328
+ orientation 1: A  67 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.260
+ orientation 5: A  70 TYR OH  :   rot    8: bump=0.000, HB=0.000, total=0.042
+ orientation 9: A  72 TYR OH  :   rot -120: bump=0.000, HB=0.000, total=0.652
+ orientation 2: A  75 THR OG1 :   rot   53: bump=0.000, HB=0.000, total=0.702
+ orientation 3: A  77 TYR OH  :   rot  152: bump=0.000, HB=0.038, total=1.243
+ orientation 2: A  83 THR OG1 :   rot    7: bump=-0.177, HB=0.002, total=1.959
+ orientation 1: A  93 SER OG  :   rot  169: bump=-0.058, HB=0.371, total=2.398
+ orientation 1: A  98 TYR OH  :   rot -177: bump=0.000, HB=1.256, total=1.680
+ orientation 1: A 103 THR OG1 :   rot -173: bump=-0.902, HB=0.059, total=2.718
+ orientation 4: A 105 TYR OH  :   rot  136: bump=-0.085, HB=0.081, total=1.608
+ orientation 2: A 109 THR OG1 :   rot   63: bump=-0.027, HB=0.000, total=0.580
+ orientation 2: A 110 SER OG  :   rot   19: bump=-0.009, HB=0.000, total=0.676
+ orientation 1: A 112 THR OG1 :   rot   76: bump=-0.004, HB=0.000, total=3.470
+ orientation 2: A 119 TYR OH  :   rot  162: bump=0.000, HB=0.373, total=2.389
+ orientation 6: A 124 TYR OH  :   rot    0: bump=0.000, HB=0.000, total=0.043
+ orientation 2: A 125 SER OG  :   rot   12: bump=-0.457, HB=0.001, total=2.053
+ orientation 3: A 128 SER OG  :   rot  -69: bump=-0.008, HB=1.466, total=2.306
+ orientation 1: A 129 SER OG  :   rot  171: bump=0.000, HB=0.002, total=1.480
+ orientation 9: A 133 TYR OH  :   rot -134: bump=0.000, HB=0.000, total=0.331
+ orientation 2: A 144 THR OG1 :   rot   31: bump=-0.216, HB=0.006, total=0.983
+ orientation 1: A 148 SER OG  :   rot  171: bump=-0.012, HB=0.119, total=2.374
+ orientation 4: A 151 TYR OH  :   rot   61: bump=-0.044, HB=0.006, total=2.153
+ orientation 1: A 164 SER OG  :   rot  180: bump=-0.009, HB=0.067, total=2.370
+ orientation 6: A 195 THR OG1 :   rot  -63: bump=-0.555, HB=1.474, total=1.434
+ orientation 2: A 196 SER OG  :   rot  -64: bump=-0.078, HB=0.014, total=0.559
+ orientation 1: A 198 THR OG1 :   rot  116: bump=-0.110, HB=0.000, total=2.137
+ orientation 3: A 203 SER OG  :   rot  -75: bump=-0.517, HB=0.525, total=2.531
+ orientation 3: A 208 SER OG  :   rot   35: bump=0.000, HB=0.123, total=3.158
+ orientation 2: A 215 SER OG  :   rot  144: bump=-0.090, HB=0.025, total=3.406
+ orientation 4: A 218 SER OG  :   rot -153: bump=0.000, HB=1.606, total=2.653
+ orientation 2: A 229 SER OG  :   rot  -60: bump=-0.004, HB=1.193, total=2.133
+ orientation 2: A 238 THR OG1 :   rot   15: bump=-0.125, HB=0.000, total=0.291
+ orientation 1: A 249 THR OG1 :   rot -178: bump=-0.010, HB=0.000, total=1.071
+ orientation 3: A 267 THR OG1 :   rot  -72: bump=0.000, HB=0.997, total=1.384
+ orientation 4: A 275 THR OG1 :   rot  -58: bump=0.000, HB=1.177, total=2.215
+ orientation 2: A 293 SER OG  :   rot -159: bump=-0.001, HB=0.000, total=1.201
+ orientation 4: A 298 SER OG  :   rot -172: bump=0.000, HB=1.058, total=2.591
+ orientation 1: A 309 SER OG  :   rot  180: bump=0.000, HB=0.000, total=0.593
+ orientation 1: A 311 THR OG1 :   rot  171: bump=0.000, HB=0.249, total=1.364
+ orientation 3: A 332 LYS NZ  :NH3+    161: bump=0.000, HB=0.000, total=0.850
+ orientation 1: A 336 SER OG  :   rot  163: bump=-0.035, HB=0.752, total=2.259
+ orientation 5: A 337 TYR OH  :   rot   83: bump=0.000, HB=0.206, total=3.070
+ orientation 7: A 341 TYR OH  :   rot  -20: bump=-0.339, HB=1.562, total=1.597
+ orientation 1: A 347 SER OG  :   rot -170: bump=0.000, HB=0.357, total=1.958
+ orientation 4: A 348 LYS NZ  :NH3+   -121: bump=-0.038, HB=0.001, total=2.240
+ orientation 2: A 352 SER OG  :   rot  119: bump=0.000, HB=0.814, total=3.519
+ orientation 1: A 355 SER OG  :   rot  180: bump=0.000, HB=0.074, total=1.668
+ orientation 1: A 371 SER OG  :   rot  180: bump=0.000, HB=0.075, total=0.897
+ orientation 9: A 382 TYR OH  :   rot  -25: bump=-0.103, HB=1.790, total=3.794
+ orientation 3: A 383 THR OG1 :   rot   65: bump=0.000, HB=1.313, total=2.474
+ orientation 1: A 399 SER OG  :   rot  171: bump=0.000, HB=0.000, total=0.345
+ orientation 9: A 426 TYR OH  :   rot -114: bump=-0.010, HB=0.419, total=1.751
+ orientation 9: A 428 TYR OH  :   rot  -82: bump=-0.348, HB=0.000, total=1.235
+ orientation 1: A 435 SER OG  :   rot -171: bump=-0.003, HB=0.000, total=1.657
+ orientation 3: A 436 THR OG1 :   rot -142: bump=0.000, HB=0.011, total=1.982
+ orientation 3: A 438 SER OG  :   rot   77: bump=0.000, HB=0.165, total=1.798
+ orientation 3: A 449 TYR OH  :   rot  151: bump=-0.119, HB=0.215, total=2.387
+ orientation 3: A 462 SER OG  :   rot  -71: bump=0.000, HB=0.290, total=0.978
+ orientation 11: A 465 TYR OH  :   rot -161: bump=-0.250, HB=1.449, total=1.380
+ orientation 1: A 466 THR OG1 :   rot -170: bump=0.000, HB=0.082, total=1.712
+ orientation 3: A 470 LYS NZ  :NH3+    148: bump=-0.006, HB=0.000, total=0.367
+ orientation 9: A 479 TYR OH  :   rot  -37: bump=-0.041, HB=0.188, total=2.408
+ orientation 3: A 486 THR OG1 :   rot  -51: bump=0.000, HB=0.371, total=2.884
+ orientation 1: A 503 TYR OH  :   rot  180: bump=0.000, HB=0.000, total=0.054
+ orientation 2: A 504 THR OG1 :   rot   17: bump=-0.113, HB=0.000, total=1.209
+ orientation 3: A 510 TYR OH  :   rot  142: bump=0.000, HB=0.000, total=0.912
+ orientation 2: A 512 SER OG  :   rot   23: bump=-0.294, HB=0.110, total=1.715
+ orientation 3: A 538 LYS NZ  :NH3+    163: bump=0.000, HB=0.000, total=1.644
+ orientation 2: A 541 SER OG  :   rot   65: bump=-0.026, HB=0.270, total=1.265
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 4034 hydrogens (0 hets)
+Adjusted 77 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu

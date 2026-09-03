@@ -1,0 +1,8 @@
+# 반응물(RC) 최적화 — 캡 원자 좌표 고정. {PIDX}/{OGIDX}=0-based 원자 인덱스, {FROZEN}=캡H 인덱스
+! wB97X-D3 def2-SVP def2/J RIJCOSX OPT CPCM(water) TightSCF defgrid2
+%pal nprocs 8 end
+%maxcore 3500
+%geom Constraints
+  {C {FROZEN} C}
+ end end
+* xyzfile 0 1 cluster_reactant.xyz

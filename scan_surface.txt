@@ -1,0 +1,68 @@
+=== qm_cluster/scan_alkoxide.out
+The Calculated Surface using the 'Actual Energy'
+   3.30000000 -2027.32227728
+   3.20000000 -2027.32250943
+   3.10000000 -2027.32255759
+   3.00000000 -2027.32216380
+   2.90000000 -2027.33065853
+   2.80000000 -2027.33034085
+   2.70000000 -2027.32961862
+   2.60000000 -2027.32905612
+   2.50000000 -2027.32883610
+   2.40000000 -2027.32922961
+   2.30000000 -2027.33043796
+   2.20000000 -2027.33260031
+   2.10000000 -2027.33574130
+   2.00000000 -2027.33985789
+   1.90000000 -2027.36017971
+   1.80000000 -2027.37347600
+   1.70000000 -2027.38311105
+   1.60000000 -2027.38548685
+
+The Calculated Surface using the SCF energy
+   3.30000000 -2027.28147771
+   3.20000000 -2027.28157618
+   3.10000000 -2027.28143942
+   3.00000000 -2027.28096776
+   2.90000000 -2027.28795967
+   2.80000000 -2027.28744832
+   2.70000000 -2027.28673654
+   2.60000000 -2027.28621748
+   2.50000000 -2027.28604162
+   2.40000000 -2027.28650180
+   2.30000000 -2027.28780914
+   2.20000000 -2027.29005891
+   2.10000000 -2027.29326349
+   2.00000000 -2027.29745268
+   1.90000000 -2027.31889902
+   1.80000000 -2027.33228814
+   1.70000000 -2027.34213187
+   1.60000000 -2027.34465305
+
+
+--------------------------------
+SUGGESTED CITATIONS FOR THIS RUN
+--------------------------------
+
+Below you find a list of papers that are relevant to this ORCA run
+We neither can nor want to force you to cite these papers, but we appreciate if you do
+You receive ORCA, which is the product of decades of hard work by many enthusiastic individuals, for free
+The only thing we kindly ask in return is that you cite our papers,
+We deeply appreciate it, if you show your appreciation for ORCA by not just citing the generic ORCA reference.
+
+Please note that relegating all ORCA citations to the supporting information does *not* help us.
+SI sections are not indexed - citations you put there will not count into any citation statistics
+But we need these citations in order to attract the funding resources that allow us to do what we are doing
+
+Therefore, if you are a happy ORCA user, please consider citing a few of the papers listed below in the main body of your paper
+
+In addition to the list printed below, the program has created the file scan_alkoxide.bibtex that contains the list in bibtex format
+You can import this file easily into all common literature databanks and citation aid programs
+
+
+=== qm_cluster/scan_oxh.out
+
+=== qm_cluster/scan_oxh2.out
+
+=== qm_cluster/scan2d_oxh.out
+

@@ -1,0 +1,28 @@
+              _             
+             (_)            
+   __ _ _ __  _ _ __   __ _ 
+  / _` | '_ \| | '_ \ / _` |
+ | (_| | | | | | | | | (_| |
+  \__, |_| |_|_|_| |_|\__,_|
+   __/ |                    
+  |___/                     
+
+gnina v1.3.2 master:f23dd2b   Built Jul 29 2025.
+gnina is based on smina and AutoDock Vina.
+Please cite appropriately.
+
+Commandline: gnina -r receptor.pdbqt -l ligands/noncovalent/DETAB_01_P3S.sdf --center_x -3.3369999999999997 --center_y -41.735 --center_z 29.543 --size_x 22.5 --size_y 22.5 --size_z 22.5 --exhaustiveness 16 --num_modes 9 --cnn_scoring rescore --seed 42 -o out_sens_boxxp2/DETAB_01_P3S_nc.sdf.gz --log out_sens_boxxp2/DETAB_01_P3S_nc.log
+Using random seed: 42
+
+mode |  affinity  |  intramol  |    CNN     |   CNN
+     | (kcal/mol) | (kcal/mol) | pose score | affinity
+-----+------------+------------+------------+----------
+    1       -5.35       -0.10       0.9277      4.231
+    2       -5.12       -0.27       0.8216      3.835
+    3       -4.80        0.83       0.8188      3.811
+    4       -5.31       -0.23       0.7962      4.525
+    5       -5.10       -0.40       0.7951      3.781
+    6       -5.52       -0.22       0.7235      4.065
+    7       -5.53       -0.23       0.7046      3.895
+    8       -5.13       -0.29       0.7042      3.672
+    9       -5.11       -0.36       0.7014      3.953
