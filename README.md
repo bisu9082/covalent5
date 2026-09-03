@@ -58,7 +58,16 @@ conf_stability/       Conformer-sensitivity DFT jobs (inputs + text outputs)
                       and summary; gen_conf_dft.py, parse_conf_stability.py.
 docking/              Receptor prep, ligand inputs, GNINA/Vina configs, pose
                       archives, logs, and all parse_* scripts + result CSVs.
-results/              Convenience copies of the headline output CSVs.
+qm_cluster/           Active-site cluster models (VX + Ser203/His447/Glu334 side
+                      chains), the relaxed P...Ogamma scan, and ORCA templates.
+figure/               Manuscript and SI figures with their generating scripts.
+
+Analysis outputs are written into data/ (al_loo_pred.csv, al_predictions.csv,
+ml_robustness_out.md). Earlier versions of this README named a results/
+directory; it never existed and the reference has been removed.
+
+verify_repo_layout.py checks this tree against the inventory above and exits
+non-zero on any mismatch. Its output is deposited as repo_inventory.txt.
 ```
 
 ## Reproducing the analysis
