@@ -2,22 +2,22 @@ covalent5 reproducibility archive - layout verification
 ==============================================================
 directory            files   status
 --------------------------------------------------------------
-data                   106   ok
-dft                    947   ok
+data                    99   ok
+dft                    641   ok
 docking                898   ok
-qm_cluster             840   ok
-conf_stability         270   ok
+qm_cluster             254   ok
+conf_stability         174   ok
 experimental             1   ok
 --------------------------------------------------------------
 ok    all job directories carry a complete file set
 info  6 enumerated stereoisomer(s) declared not computed (no measured kinetics; excluded from all analyses):
-      dft/BSAR/BSAR_01_P5R
+      dft/GF/GF_01_P1R
       dft/DETAB/DETAB_01_P3S
       dft/FEN/FEN_01_P3S
-      dft/GF/GF_01_P1R
-      dft/METH/METH_01_P2S
       dft/VR/VR_01_P8R
+      dft/METH/METH_01_P2S
+      dft/BSAR/BSAR_01_P5R
 --------------------------------------------------------------
-total tracked-tree files: 4820
+total tracked-tree files: 2137
 ==============================================================
 RESULT: PASS
